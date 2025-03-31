@@ -1,0 +1,19 @@
+{
+    "name": "asus/projeto",
+    "description": "criar qr codes",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Asus\\Projeto\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Duarte Neves"
+        }
+    ],
+    "require": {
+        "endroid/qr-code": "^6.0",
+        "chillerlan/php-qrcode": "^5.0"
+    }
+}
