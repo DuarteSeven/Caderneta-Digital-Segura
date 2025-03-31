@@ -1,0 +1,35 @@
+/* Input field styling */
+input[type="text"],
+input[type="password"] {
+    padding: 8px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #FFFFFF; /* White background for textboxes */
+    color: #424242; /* Dark text for readability */
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* butao registo */
+button[type="button"] {
+    margin-top: 10px;
+}
+
+p {
+    margin-top: 20px;
+}

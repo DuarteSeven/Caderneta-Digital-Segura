@@ -1,0 +1,215 @@
+/* Fundo da página */
+body {
+    background-color: #424242; /* Dark gray background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar styling */
+.navbar {
+    background-color: #333;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 20px;
+    margin: 0 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+/* Perfil nome de usuario */
+.navbar a span {
+    display: block;
+    color: #D3D3D3;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* Main container styling */
+.container {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    color: #FFFFFF;
+}
+
+/* Header text */
+p, h1, h2 {
+    color: #FFFFFF;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="file"],
+textarea {
+    padding: 8px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #FFFFFF; /* White background for textboxes */
+    color: #424242; /* Dark text for readability */
+}
+
+/* Textarea customization */
+textarea {
+    resize: vertical;
+}
+
+/* Button Styling */
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Color Picker Section */
+#color-picker {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+#color-picker label {
+    margin: 5px 0;
+}
+
+#color-picker input[type="range"] {
+    width: 100%;
+    max-width: 400px;
+}
+
+#color-picker span {
+    margin-left: 10px;
+}
+
+/* Result Image Styling */
+#result-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#result-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Upload Button Styling */
+#upload-container {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#upload-button {
+    padding: 10px 20px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+#upload-button:hover {
+    background-color: #1E88E5;
+}
+
+/* Table Styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #333;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Table Header */
+th {
+    background-color: #222;
+    color: #FFD700; /* Gold text */
+    padding: 15px;
+    font-size: 18px;
+    text-align: left;
+}
+
+/* Table Rows */
+td {
+    color: #D3D3D3; /* Light gray text */
+    padding: 15px;
+    border-bottom: 1px solid #555;
+}
+
+/* Last Row */
+tr:last-child td {
+    border-bottom: none;
+}
+
+/* Hover Effect */
+tr:hover {
+    background-color: #444;
+    transition: background-color 0.3s ease;
+}
+
+/* Image Styling */
+td img {
+    width: 50px;  /* Half size */
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Approval Button */
+.approval-button {
+    padding: 8px 16px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.approval-button:hover {
+    background-color: #1E88E5;
+}

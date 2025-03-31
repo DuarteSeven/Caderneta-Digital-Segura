@@ -1,0 +1,49 @@
+.delete-account-button {
+    background-color: #ff4444;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: -10px;
+    align-self: center;
+}
+
+/* apagar conta butao*/
+.delete-account-button:hover {
+    background-color: #cc0000;
+}
+
+/* logout butao*/
+.purple-button {
+    background-color: #6a1b9a;
+    color: white !important;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.purple-button:hover {
+    background-color: #4a148c;
+}
+
+.edit-user-button {
+    background-color: white;
+    color: #333 !important;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.edit-user-button:hover {
+    background-color: #f8f9fa;
+    border-color: #ccc;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}

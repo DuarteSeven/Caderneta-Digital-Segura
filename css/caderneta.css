@@ -1,0 +1,171 @@
+/* Fundo */
+body {
+    background-color: #424242;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contentor */
+.container {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    color: #FFFFFF; /* Text color for main content */
+}
+
+/* Titulos */
+h1, h2, h3 {
+    color: #FFFFFF; /* Set color for headings */
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+/* Estilizaçao da caderneta*/
+#yourCadernetaSection, #otherCadernetaSection {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: flex-start; /* Align items to the left */
+    gap: 20px; /* Space between items */
+}
+
+/* Estilização individual */
+#yourCadernetaSection div, #otherCadernetaSection div {
+    background-color: #333;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    flex: 1 1 280px; /* Make items responsive with a base size of 280px */
+    max-width: 320px; /* Ensure they don’t get too wide */
+    margin: 10px; /* Space between items */
+    display: inline-block
+}
+
+/* Efeitos */
+#yourCadernetaSection div:hover, #otherCadernetaSection div:hover {
+    transform: scale(1.05);
+}
+
+/* Imagem da caderneta */
+#yourCadernetaSection img, #otherCadernetaSection img {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* Nom e tema da caderneta */
+#yourCadernetaSection h3, #otherCadernetaSection h3 {
+    color: #FFD700; /* Gold color for names */
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+#yourCadernetaSection p, #otherCadernetaSection p {
+    color: #D3D3D3; 
+}
+
+/* Butoes */
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Butões da caderneta */
+button[type="button"], a button {
+    margin-top: 10px;
+}
+
+/* cromos */
+#cardSection {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens quebrem a linha */
+    justify-content: flex-start; /* Alinha os itens à esquerda */
+    gap: 20px; /* Espaço entre os itens */
+}
+
+#cardSection div {
+    background-color: #333;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    flex: 1 1 280px; /* Base de 280px para responsividade */
+    max-width: 320px; /* Garante que não fiquem muito largos */
+    margin: 10px; /* Espaço entre os itens */
+    display: inline-block;
+}
+
+#cardSection div img {
+    width: 180px; /* Aumentando o tamanho da imagem */
+    height: auto; /* Mantendo a proporção */
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* Nome cromo */
+#cardSection h3 {
+    color: #FFD700; 
+}
+
+#cardSection p {
+    color: #D3D3D3; 
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Tab Button */
+.tab-buttons {
+    margin-top: 20px;
+}
+
+.tab-buttons button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.tab-buttons button:hover {
+    background-color: #555;
+}
+
+@media (min-width: 1024px) {
+    #yourCadernetaSection, #otherCadernetaSection {
+        justify-content: flex-start; /* Align to left */
+        gap: 20px; /* Space between items */
+    }
+}
+
+@media (max-width: 768px) {
+    #yourCadernetaSection div, #otherCadernetaSection div {
+        flex: 1 1 100%; /* Take full width on smaller screens */
+        max-width: none; /* Remove max-width for small screens */
+        margin: 5px 0; /* Adjust margin for mobile */
+    }
+
+    #cardSection div {
+        flex: 1 1 100%; /* Make cromos take full width on small screens */
+        width: 100%; /* Ensure full width */
+        margin: 5px 0; /* Add space between cromos */
+    }
+}
